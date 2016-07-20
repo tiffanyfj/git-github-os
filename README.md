@@ -140,7 +140,7 @@ Great websites for people who are new to coding/contributing to open source:
 * [First timers only](http://www.firsttimersonly.com/)
 * [Your first PR](https://twitter.com/yourfirstpr)
 
-## Some Git/GitHub resources
+## Some Git/GitHub Resources
 * [Official git documentation](https://git-scm.com/doc)
 * [GitHub's Hello-World](https://guides.github.com/activities/hello-world/)
 * [Brent Beer's OSCON talk: Everything I wish I knew when I started using GitHub](https://www.youtube.com/watch?v=KDUtjZHIx44)
