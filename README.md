@@ -37,7 +37,7 @@ git config --list
 Say you want to pull down Intel Snap, you would go to the github page, https://github.com/intelsdi-x/snap, click clone or download, pick HTTPS or SSH and copy the link. For HTTPS you can just add .git to the URL `https://github.com/intelsdi-x/snap.git`.
 ![git-clone](https://cloud.githubusercontent.com/assets/12282848/16968258/8f066e18-4dc2-11e6-9171-92b4b76f8590.png)
 
-After copying the link, go to the path you want to clone this to. For organization it 
+After copying the link, go to the path you want to clone this to. For organization it
 
 ### Creating your own repository
 Go to GitHub and click the button `new repository`. This is what mine looks like:
@@ -50,16 +50,16 @@ After you create it, you can then go to your terminal to add either an existing 
 ![quick-setup](https://cloud.githubusercontent.com/assets/12282848/16969553/73f22560-4dca-11e6-9f4e-d1a8657ac5ab.png)
 
 ### Adding content to your new repo
-Let's assume you haven't created your content yet. 
+Let's assume you haven't created your content yet.
 
 You can either:
-Clone your new repository with the first link shown, so 
+Clone your new repository with the first link shown, so
 ```
 git clone https://github.com/tiffanyfj/git-github-os.git
 ```
 
 Or
-create a directory locally on your machine, create a directory with the same name that you used to create the GitHub repository. If you do it this way, you need to run 
+create a directory locally on your machine, create a directory with the same name that you used to create the GitHub repository. If you do it this way, you need to run
 ```sh
 git init # this initializes your directory as a git repo
 git remote add origin https://github.com/tiffanyfj/git-github-os.git
@@ -75,7 +75,7 @@ origin	https://github.com/tiffanyfj/git-github-os.git (fetch)
 origin	https://github.com/tiffanyfj/git-github-os.git (push)
 ```
 
-Make some files, say README.md. Add something to the README. Then add the file and make a commit. When creating this repository I created a directory on my machine in the path `github.com/tiffanyfj/git-github-os`. Then I created this README and added some content. 
+Make some files, say README.md. Add something to the README. Then add the file and make a commit. When creating this repository I created a directory on my machine in the path `github.com/tiffanyfj/git-github-os`. Then I created this README and added some content.
 ```sh
 git add README.md # if you do . instead of README.md, it adds all files in the directory
 git commit -m "Inital readme commit"
@@ -86,7 +86,7 @@ Now if you go refresh your respository on github.com, your commit with your READ
 
 If you decide to make changes you can make a new commit with the changes by doing the previous `git add` and `git commit lines` or use `git commit -am "Message goes here"` which does the two commands in one line. Then do a `git push`.
 
-Or if you want to add your new changes to the same commit you can do 
+Or if you want to add your new changes to the same commit you can do
 ```sh
 git add README.md
 git commit --amend --no-edit
@@ -94,11 +94,11 @@ git push --force # This is risky though because it overwrites what you had so ma
 ```
 
 ### Making a new branch
-Say you want to make changes on a branch other than master. This is common when wanting to separate different changes. If you want to have the exact 
+Say you want to make changes on a branch other than master. This is common when wanting to separate different changes. If you want to have the exact
 
 ### Pulling down new content
 * `git fetch`: fetches the changes, but doesn't merge them
-* `git pull`: does `git fetch` and `git merge`. This results in an [extra commit](https://coderwall.com/p/7aymfa/please-oh-please-use-git-pull-rebase). 
+* `git pull`: does `git fetch` and `git merge`. This results in an [extra commit](https://coderwall.com/p/7aymfa/please-oh-please-use-git-pull-rebase).
 * `git pull --rebase`: leaves your commits in a straight line without branches
 
 ## Contributing to Open Source
@@ -125,3 +125,7 @@ Great websites for people who are new to coding/contributing to open source:
 * [GitHub's Hello-World](https://guides.github.com/activities/hello-world/)
 * [Brent Beer's OSCON talk: Everything I wish I knew when I started using GitHub](https://www.youtube.com/watch?v=KDUtjZHIx44)
 * [SWDB-2015 Git and GitHub tutorial](https://github.com/AllenBrainAtlas/SWDB-2015/blob/master/presentations/git/tutorial.ipynb)
+* [Start Learning Git and GitHub Today with Self-Paced Training](https://github.com/blog/2083-start-learning-git-and-github-today-with-self-paced-training)
+
+## Contributing to an Open Source Project  
+* [Course from egghead.io: How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
