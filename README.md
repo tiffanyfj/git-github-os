@@ -129,7 +129,7 @@ Click the button at the top that says "Issues" and then the green button to the 
 ### Creating a Pull Request
 Click the button at the top that says "Pull Requests" and then the green button to the right.
 ![create-pr](https://cloud.githubusercontent.com/assets/12282848/16970458/128818aa-4dd1-11e6-9388-f27a7106cb4e.png)
-If the pull request (PR) is to fix an exisiting issue, you can reference it by `#somenumber`, e.g. `#2`. It's common to say "Fixes #somenumber" so when the PR is merged, it closes the corresponding issue.
+If the pull request (PR) is to fix an existing issue, you can reference it by `#somenumber`, e.g. `#2`. It's common to say "Fixes #somenumber" so when the PR is merged, it closes the corresponding issue.
 
 *Tip: Include the issue the PR fixes in the commit message and have descriptive messages.*
 
