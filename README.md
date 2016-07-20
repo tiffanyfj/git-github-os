@@ -1,7 +1,7 @@
 # Git, GitHub, and Contributing to Open Source
 This is a rough template for what [Scott Hanselman](https://github.com/shanselman) and I are teaching at the Women Who Code workshop on July 19th, 2016. All pull requests or issues to improve it are welcome :).
 
-*Dislaimer: This is still a WIP.*
+*Disclaimer: This is still a WIP.*
 
 ## Git/GitHub
 ### Creating a GitHub account
@@ -78,11 +78,11 @@ origin	https://github.com/tiffanyfj/git-github-os.git (push)
 Make some files, say README.md. Add something to the README. Then add the file and make a commit. When creating this repository I created a directory on my machine in the path `github.com/tiffanyfj/git-github-os`. Then I created this README and added some content.
 ```sh
 git add README.md # if you do . instead of README.md, it adds all files in the directory
-git commit -m "Inital readme commit"
+git commit -m "Initial readme commit"
 git push -u origin master # if you cloned, you just need to do git push
 ```
 
-Now if you go refresh your respository on github.com, your commit with your README.md should be there.
+Now if you go refresh your repository on github.com, your commit with your README.md should be there.
 
 If you decide to make changes you can make a new commit with the changes by doing the previous `git add` and `git commit lines` or use `git commit -am "Message goes here"` which does the two commands in one line. Then do a `git push`.
 
@@ -109,7 +109,7 @@ Click the button at the top that says "Issues" and then the green button to the 
 ### Creating a Pull Request
 Click the button at the top that says "Pull Requests" and then the green button to the right.
 ![create-pr](https://cloud.githubusercontent.com/assets/12282848/16970458/128818aa-4dd1-11e6-9388-f27a7106cb4e.png)
-If the pull request (PR) is to fix an exisiting issue, you can reference it by `#somenumber`, e.g. `#2`. It's common to say "Fixes #somenumber" so when the PR is merged, it closes the corresponding issue.
+If the pull request (PR) is to fix an existing issue, you can reference it by `#somenumber`, e.g. `#2`. It's common to say "Fixes #somenumber" so when the PR is merged, it closes the corresponding issue.
 
 *Tip: Include the issue the PR fixes in the commit message and have descriptive messages.*
 
@@ -120,7 +120,7 @@ Great websites for people who are new to coding/contributing to open source:
 * [First timers only](http://www.firsttimersonly.com/)
 * [Your first PR](https://twitter.com/yourfirstpr)
 
-## Some Git/GitHub resources
+## Some Git/GitHub Resources
 * [Official git documentation](https://git-scm.com/doc)
 * [GitHub's Hello-World](https://guides.github.com/activities/hello-world/)
 * [Brent Beer's OSCON talk: Everything I wish I knew when I started using GitHub](https://www.youtube.com/watch?v=KDUtjZHIx44)
